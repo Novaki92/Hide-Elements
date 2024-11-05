@@ -50,6 +50,21 @@ A Microsoft Edge extension to hide specific elements on websites. This extension
 
 - **Extension Not Working**: Ensure that you have reloaded the extension after modifying any files.
 - **No Elements Hidden**: Double-check your CSS selectors in `styles.css` or JavaScript in `content.js` to make sure they match the structure of the website.
+- **No Images Displaying**: If all images are hidden by the template:
+  - Check the `styles.css` file for any rules that might be hiding images. Look for selectors that affect images, such as:
+    ```css
+    img {
+        display: none !important;
+    }
+    ```
+  - If such rules exist, either modify or remove them to allow images to display.
+  - You can also add an exception in your CSS to specifically show images:
+    ```css
+    img {
+        display: block !important; /* or inline */
+    }
+    ```
+  - After making changes, remember to reload the extension and refresh the webpage to see if images are now visible.
 
 ## License
 
