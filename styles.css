@@ -1,0 +1,14 @@
+/* Hide a specific element by class */
+.alert.alert-info {
+    display: none !important;
+}
+
+/* Hide an element by ID
+#example-id {
+    display: none !important;
+}*/
+
+/* Hide all images
+example-img {
+    display: none !important;
+}*/
