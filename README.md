@@ -65,6 +65,10 @@ A Microsoft Edge extension to hide specific elements on websites. This extension
     }
     ```
   - After making changes, remember to reload the extension and refresh the webpage to see if images are now visible.
+    
+## Example Usage
+
+For an example of this extension in action, check out this [example repository](https://github.com/Novaki92/Hide-Elements-Roll20).
 
 ## License
 
